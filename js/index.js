@@ -26,11 +26,13 @@ function handlePause(){
 
   console.log('Le diste clic al botón de pause')
 }
+
 function handleBackward(){
   $video.currentTime -= 10
 
   console.log('Para atrás 10 segundos')
 }
+
 function handleForward(){
   $video.currentTime += 10
 
